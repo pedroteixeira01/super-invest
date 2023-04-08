@@ -1,0 +1,11 @@
+footer{
+    color: gray;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}

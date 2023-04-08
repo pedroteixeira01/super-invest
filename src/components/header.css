@@ -1,0 +1,50 @@
+header{
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+div{
+    margin: auto;
+    width:50%;
+}
+
+nav{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+nav li{
+    font-weight: bolder;
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background: blue;
+}
+
+#logo{
+    margin-right: 195px;
+}
+
+#lupa{
+    width: 20px;
+    height: 18px;
+}
+
+header p{
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+}
