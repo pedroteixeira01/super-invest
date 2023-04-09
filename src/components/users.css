@@ -1,0 +1,43 @@
+.mainContent{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.userPhoto{
+    width: 50%;
+}
+
+.userPhoto img{
+    width: 300px;
+    height: 300px;
+}
+
+.userInfo{
+    border: 1px solid gray;
+    height: 139px;
+    width: 300px;
+    margin-bottom: 3px;
+}
+
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.site{
+    text-decoration-line: none;
+}
+
+.site:hover{
+    color: rgb(216, 140, 0);
+}

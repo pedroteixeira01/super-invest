@@ -1,50 +1,66 @@
 header{
     color: white;
     width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom-right-radius: 15%;
     border-bottom-left-radius: 15%;
 }
 
-div{
+.content{
     margin: auto;
     width:50%;
 }
 
-nav{
+#headerOptions{
     font-size: 20px;
     list-style-type: none;
 }
 
-nav li{
+#headerOptions li{
     font-weight: bolder;
     display: inline;
     margin-left: 10px;
 }
 
-nav a{
+#headerOptions a{
     outline: none;
     text-decoration: none;
     color: white;
 }
 
-nav a:hover{
+#headerOptions a:hover{
     background: blue;
 }
 
 #logo{
-    margin-right: 195px;
+    margin-right: 200px;
+}
+
+header .in{
+    border: 2px solid rgb(185, 128, 22);
+    border-radius: 10px;
+    margin: 0;
+}
+
+header .out{
+    display: none;
 }
 
 #lupa{
     width: 20px;
     height: 18px;
+    margin: 0;
 }
 
 header p{
-    font-size: 19px;
+    font-size: 18px;
     font-style: italic;
     font-weight: bold;
+    margin-top: 20px;
+}
+
+header hr{
+    border-color: gray;
 }
